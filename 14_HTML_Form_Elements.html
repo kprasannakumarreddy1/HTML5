@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Elements</title>
+    <style>
+        div{
+            background-color: orange;
+            font-family: "Comic sans Ms" , sans-serif;
+            padding: 10px;
+            margin: 5px;
+        }
+        body{
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+     <!-- input and lable -->
+      <!-- Simple Login Form -->
+    <h2>Simple Login Form</h2>
+     <div>
+        <form>
+            <label for="username">UserName</label>
+            <input type="text" id="username">
+            <br>
+            <lable for="password">Password</lable>
+            <input type="password" id="password">
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+   <!-- Login form with Table -->
+    <h2>Login Form with Table</h2>
+    <div>
+        <form>
+            <table>
+                <tr>
+                    <td><label>UserName</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label>Password</label></td>
+                    <td><input type="password"></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <!-- Select box with Options -->
+    <h2>Select Box with Options</h2>
+    <div>
+        <form>
+            <label>Select a Language</label>
+            <select>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JavaScrpit</option>
+                <option>JQuery</option>
+                <option>AJAX</option>
+                <option>Bootstrap</option>
+                <option>AngularJS</option>
+            </select>
+        </form>
+    </div>
+
+    <!-- Textarea box -->
+    <h2>Textarea box</h2>
+    <div>
+        <form>
+            <label>Enter Your Message</label>
+            <textarea rows="5" cols="36"></textarea>
+        </form>
+    </div>
+   <!-- Datalist (HTML5) -->
+    <h2>Datalist (HTML5)</h2>
+    <div>
+        <form>
+            <label>Select a Language</label>
+            <input list="technologies" name="tech">
+            <datalist id="technologies">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JavaScrpit">
+                <option value="JQuery">
+                <option value="Bootstrap">
+                <option value="AngularJS">
+                <option value="AJAX">
+            </datalist>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+
+
+<br><br><br>
+</body>
+</html>
