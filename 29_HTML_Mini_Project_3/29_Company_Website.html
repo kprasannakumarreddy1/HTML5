@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Company Website</title>
+    <style>
+    	body{
+    		font-family: "Comic Sans MS",sans-serif;
+    		margin: 0;
+    	}
+    	header , footer{
+    		background: white url("../img/water_flow.gif") scroll no-repeat bottom;
+    		background-size: cover;
+    		padding: 10px;
+    		color: white;
+    		text-align: center; 
+    	}
+    	footer{
+    		line-height: 10px;
+    	}
+    	/* ----- Main Navigation ----- */
+    	nav{
+    		background-color: #182020;
+    		overflow: hidden;
+    	}
+    	nav ul{
+    		list-style-type: none;
+    		padding: 0;
+    		margin: 0;
+    	}
+    	nav ul li{
+    		float: left;
+    	}
+    	nav ul li a{
+    		text-decoration: none;
+    		color: white;
+    		padding: 10px 25px;
+    		display: inline-block;
+    		font-size: 18px;
+    	}
+    	nav ul li a:hover{
+    		background-color: #636a46;
+    	}
+    	nav ul li a.active{
+    		background-color: #636a46;
+    	}
+    	/* --------- sidebar section --------*/
+    	aside{
+    		float: left;
+    		width: 200px;
+    		text-align: center;
+    		height: 350px;
+    		overflow-y: scroll;
+    	}
+    	aside ul{
+    		list-style-type: none;
+    		padding: 0;
+    		margin: 0;  
+    	}
+    	aside ul li a{
+    		text-decoration: none;
+    		color: black;
+    		padding: 15px 25px;
+    		display: block;
+    	}
+    	aside ul li a:hover{
+    		background-color: #636a46;
+    		color: white;
+    	}
+    	/* -----Main Content Section -----  */
+    	section{
+    		margin-left: 200px;
+    		border-left: 2px solid grey;
+    		padding: 10px;
+    	}
+    	details{
+    		background-color: #636a46;
+    		margin: 5px;
+    		padding: 10px;
+    		color: white;
+    		border-radius: 50px;
+    	}
+    	article{
+    		background-color: #b9bd89;
+    		color: black;
+    		padding: 10px;
+    		border-radius: 50px;
+    	}
+    	summary{
+    		outline: none;
+    	}
+
+
+    </style>
+    <link rel="stylesheet" href="../font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+	<!-- Main Header -->
+	<header>
+		<h1>LearnTech</h1>
+		<p>The Smart way of Learning</p>
+	</header> 
+	<!-- Main Navigation -->
+	<nav>
+		<ul>
+			<li>
+				<a href="#" class="active"><i class="fa-fa"></i>Home</a>
+			</li>
+			<li>
+				<a href="#">About Us</a>
+			</li>
+			<li>
+				<a href="#">Contact Us</a>
+			</li>
+			<li>
+				<a href="#">Careers</a>
+			</li>
+			<li>
+				<a href="#">Courses</a>
+			</li>
+		</ul>
+	</nav> 
+	<!--  Sidebar section -->
+	<aside>
+		<ul>
+			<li>
+				<a href="#">HTML</a>
+			</li>
+			<li>
+				<a href="#">CSS</a>
+			</li>
+			<li>
+				<a href="#">JavaScript</a>
+			</li>
+			<li>
+				<a href="#">jQuery</a>
+			</li>
+			<li>
+				<a href="#">AJAX</a>
+			</li>
+			<li>
+				<a href="#">Bootstrap</a>
+			</li>
+			<li>
+				<a href="#">AngularJS</a>
+			</li>
+		</ul>
+	</aside> 
+	<!-- Main Content -->
+	<section>
+		<!-- HTML -->
+		<details>
+			<summary>HTML</summary>
+			<article>
+				<h3>HTML</h3>
+				<p>Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript, it forms a triad of cornerstone technologies for the World Wide Web. Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. </p>
+			</article>
+		</details>
+		<!-- CSS -->
+		<details>
+			<summary>CSS</summary>
+			<article>
+				<h3>CSS</h3>
+				<p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language like HTML.CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.This separation can improve content accessibility. </p>
+			</article>
+		</details>
+		<!-- Javascript -->
+		<details>
+			<summary>JavaScript</summary>
+			<article>
+				<h3>JavaScript</h3>
+				<p>JavaScript  often abbreviated as JS, is a high-level, interpreted programming language. It is a language which is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.Alongside HTML and CSS, JavaScript is one of the three core technologies of the World Wide Web.</p>
+			</article>
+		</details>
+		<!-- jQuery -->
+		<details>
+			<summary>jQuery</summary>
+			<article>
+				<h3>jQuery</h3>
+				<p>jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML.It is free, open-source software using the permissive MIT License.Web analysis indicates that it is the most widely deployed JavaScript library by a large margin.jQuery's syntax is designed to make it easier to navigate a document, select DOM elements, create animations, handle events, and develop Ajax applications. </p>
+			</article>
+		</details>
+		<!-- AJAX -->
+		<details>
+			<summary>AJAX</summary>
+			<article>
+				<h3>AJAX</h3>
+				<p>Ajax short for "Asynchronous JavaScript And XML" is a set of Web development techniques using many Web technologies on the client side to create asynchronous Web applications. With Ajax, Web applications can send and retrieve data from a server asynchronously (in the background) without interfering with the display and behavior of the existing page. By decoupling the data interchange layer from the presentation layer, Ajax allows Web pages, and by extension Web applications, to change content dynamically without the need to reload the entire page.</p>
+			</article>
+		</details>
+		<!-- Bootstrap -->
+		<details>
+			<summary>Bootstrap</summary>
+			<article>
+				<h3>Bootstrap</h3>
+				<p>Bootstrap is a free and open-source front-end framework (library) for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions. Unlike many web frameworks, it concerns itself with front-end development only.</p>
+			</article>
+		</details>
+		<!-- AngularJS -->
+		<details>
+			<summary>AngularJS</summary>
+			<article>
+				<h3>AngularJS</h3>
+				<p>AngularJS is a JavaScript-based open-source front-end web application framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications. The JavaScript components complement Apache Cordova, a framework used for developing cross-platform mobile apps.</p>
+			</article>
+		</details>
+	</section>
+	<!-- Main Footer -->
+	<footer>
+		<h2>Copyright &copy; 2018 , LearnTech</h2>
+		<p>All Rights Reserved</p>
+		<small>Developed & Maintained by PrasannaKumar</small>
+	</footer>
+
+</body>
+</html>
